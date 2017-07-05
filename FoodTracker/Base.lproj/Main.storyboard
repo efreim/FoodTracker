@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="66.5" width="142" height="30"/>
                                         <state key="normal" title="Set deafult label text"/>
                                         <connections>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XCH-bY-g75"/>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIC-TU-T72"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -57,6 +57,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="DyK-IO-PD9" secondAttribute="trailing" id="wPD-bq-zcg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="Yj8-2O-qt1" id="L6Z-xa-8Xd"/>
+                        <outlet property="nameTextField" destination="RzD-5e-cAi" id="LpP-Dr-DKP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
